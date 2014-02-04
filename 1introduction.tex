@@ -5,37 +5,25 @@
 
 The original aim of the Internet was to provide an open and scalable network among research and educational communities, where billions of users are served through a global system of interconnected computer networks.
 
-\bigskip
+\par
 
-Unfortunately, with the rapid growth of the Internet over the last two decades, the number of attacks on the Internet has also increased rapidly. One of this attacks, consist in disrupt the service provided by a network or server, either crashing the system sending some packets that exploit a software vulnerability or sending a large number of useless traffic to collapse the resources of the service. This kind of attack is known as Denial of Service (DoS) attack.
+Unfortunately, with the rapid growth of the Internet over the last two decades, the number of attacks on the Internet has also increased rapidly. One of this attacks, consist in disrupt the service provided by a network or server, either crashing the system sending some packets that exploit a software vulnerability or sending a large number of useless traffic to collapse the resources of the service. This kind of attack is known as Denial of Service (DoS) attack, or Distributed Denial of Service attack if is launched for multiple hosts.
 
-\bigskip
+\par
 
 There are some design principles of the Internet that facility these kinds of attacks:
 
-\bigskip
+\par
 
 \textit{Resource sharing}: in IP networks, doubt to packet-switched service, users shares all the resources, and one user's service can be disturbed by other user's behaviour, so bandwidth attacks can disrupt service for legitimate users.
-
+\par
 \textit{Simple Core and Complex Edge}: One of the principles of Internet is that the core network should be simple and push all the complexity into the end hosts. That means that the core of the networks is not able to integrate complex application, as authentication, security. Due to this simplification, when an attacker sends packets into the network and the victim receive them, it is almost impossible recognize the real owner of the packets.
-
+\par
 \textit{Fast Core Networks and Slow Edge Networks}: The Core Networks needs to have a high capacity due to the heavy traffic that has to support from many sources to many destinations. In contrast, an edge network needs less capacity because it only needs to support its end users. A disadvantage is that traffic from high-capacity core can crush the slow-capacity edge.
 
 \bigskip
-
 Taking advantage of these principles and their vulnerabilities, have been arising a large number of different DoS and DDoS attacks. The two main impacts of DoS and DDoS attacks are the consumption of the host's resources and the consumption of the network bandwidth. Jelena Mirkovik presents a taxonomy for classifying both attacks. This classification depends on the degree of automation (the attacks might be manual, automatic, semiautomatic), depends also which weakness of the victims want to be exploit, which is the rate of the attacks and the amount of traffic send it, how the attacker try to hide its identification.
 
-\bigskip
-
-On the other hand, the rapid growth of the attacks has led to a parallel development to counteract them. In a general view of the defense techniques, there are four categories of defense against DoS attacks:
-
-Attack Prevention: The aim of this technique is try to stop the attacks before it cause damage on the victim. One of the attacker's techniques to hide its identity is spoof the source address of the attack traffic. This approach tries to make sure that only valid traffic can pass through.
-
-Attack Detection: When an attack skips the attack prevention phase, the victim has to try to detect the attacks when they occur, which is important to direct any further action.
-
-Attack Source Identification: Once an attack has been detected, it should try to identify the source that the attacks want to exploit and take the necessary steps to resolve the problem (as block the traffic at its source).
-
-Attack reaction: If the attack skips the steps below and it is already attacking the resource, there should be a reaction to minimize the damage of the attackers and try to get the end of the attack. 
 
 In the current network architecture, the network devices (particular routers) are bundle with a specialized control plane and various features. This vertical integration essentially binds you to whatever software and features are shipped with those particular devices. Software Defined Networking effectively breaks these pieces apart.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  4 FEB 2014 15:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  4 FEB 2014 15:25
 entering extended mode
  %&-line parsing enabled.
 **thesis-example.tex
@@ -866,16 +866,16 @@ File: images/aalto-logo-en.pdf Graphic file (type pdf)
 ]
 (./1introduction.tex
 Chapter 1.
-[7
 
-
-]
-Overfull \hbox (9.23058pt too wide) in paragraph at lines 40--41
+Overfull \hbox (9.23058pt too wide) in paragraph at lines 28--29
 []\OT1/cmr/m/n/12 In the cur-rent net-work ar-chi-tec-ture, the net-work de-vic
 es (par-tic-u-lar routers)
  []
 
-[8]) (./2background.tex [9]
+[7
+
+
+] [8]) (./2background.tex [9]
 Chapter 2.
 ) (./thesis-example.bbl [10
 
@@ -912,7 +912,7 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on thesis-example.pdf (13 pages, 162146 bytes).
+Output written on thesis-example.pdf (13 pages, 160729 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)

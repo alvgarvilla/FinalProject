@@ -11,7 +11,7 @@ Unfortunately, with the rapid growth of the Internet over the last two decades, 
 
 \par
 
-There are some design principles of the Internet that facility these kinds of attacks:
+There are some design principles of the Internet that facility these kinds of attacks~\cite{peng2007survey}:
 
 \par
 
@@ -22,32 +22,32 @@ There are some design principles of the Internet that facility these kinds of at
 \textit{Fast Core Networks and Slow Edge Networks}: The Core Networks needs to have a high capacity due to the heavy traffic that has to support from many sources to many destinations. In contrast, an edge network needs less capacity because it only needs to support its end users. A disadvantage is that traffic from high-capacity core can crush the slow-capacity edge.
 
 \bigskip
-Taking advantage of these principles and their vulnerabilities, have been arising a large number of different DoS and DDoS attacks. The two main impacts of DoS and DDoS attacks are the consumption of the host's resources and the consumption of the network bandwidth. Jelena Mirkovik presents a taxonomy for classifying both attacks. This classification depends on the degree of automation (the attacks might be manual, automatic, semiautomatic), depends also which weakness of the victims want to be exploit, which is the rate of the attacks and the amount of traffic send it, how the attacker try to hide its identification.
 
+Taking advantage of these principles and their vulnerabilities, have been arising a large number of different DoS and DDoS attacks and, as a result, a parallel growing of defense mechanisms to avoid these attacks. We might consider it like a constant battle between both sides, in which technological improvements are taking an important role on it. 
+ 
+\par
 
 In the current network architecture, the network devices (particular routers) are bundle with a specialized control plane and various features. This vertical integration essentially binds you to whatever software and features are shipped with those particular devices. Software Defined Networking effectively breaks these pieces apart.
 
-SDN is a type of network architecture that separates the network data plane (network devices that forwarding traffic) from the control plane (software logic that controls ultimately how traffic is flowing through the network).  
+\par
 
-One of the reasons to separate the control plane and the data plane is that the software control of the network can evolve independently of the hardware. A second reason is that it allows the network to be controlled from a single high-level software program.
+SDN is a type of network architecture that separates the network data plane (network devices that forwarding traffic) from the control plane (software logic that controls ultimately how traffic is flowing through the network). OpenFlow~\cite{OpenFlowWP} is a standard interface defined between the control and forwarding layers of an SDN structure. 
 
-%Seccion
-\section{Motivation}
+\par
 
-In order to make a good observation and analysis of the rock mass during the preliminary stages of a project, a rock mass classification method is needed. There are several methods to perform this job but not all of them can cover all the situations. In Finland, a Q-System Course was carried out in Aalto University in order to teach the method and have a better knowledge about it. 
+One of the reasons to separate the control plane and the data plane is that the software control of the network can evolve independently of the hardware. 
 
-Referring to the rock mass quality of the zone already explained, and thus for the exceptionality favorable bedrock conditions are well suited for any kind of rock construction in Finland, one of the most appropriate rock mass classification method is the Q-System method and that is reason enough for make a detailed investigation like this project.
+\par
 
-\section{Objectives}
+A second reason is it allows the network to be controlled from a single high-level software program. The software used to control the network (in our case, POX), even though taking in count that use a high-level programming language, has a lower layer abstraction and increase the difficulty for the Network Programmers. Due this inconvenient, it is time to speak about \textit{Frenetic}.\textit{Frenetic} is a Network Programming language which gives a high-level abstraction from POX, allowing them direct control over the network. \textit{Pyretic (Python + Frenetic)} is one of the Frenetic family programming languages which provide a domain specific sub-language for specifying dataplane packet processing.
 
-The aim of this project is analyze all the data that the participants recollected from the Test Tunnel in order to know the degree of subjectivity of Q-System and how to improve the teaching method. The study is also useful because of the different way to make the exercises in the Tunnel, logging of the core boxes and mapping of the wall of the tunnel, and compare the several observations made by different kind of backgrounds between the participants. 
+\par
 
-Inquire to others kinds of rock mass classification methods will be rewarding as well, in order to go in depth in the investigation of the project.
+The aim of this survey is how might SDN help us to improve current DDoS defense mechanism. Throughout this project, we will review the main DDoS defense and attack mechanisms and further some algorithms already developed and how could be improve them with OpenFlow. We will test these algorithms on virtual scenarios-through Mininet
+
+\bigskip
+
+This thesis is structure as follows: The next chapter we will explain the background related with this survey. We talk about the current situation of DDoS, how OpenFlow works and its main functionalities 
 
 
-\section{Structure of the Thesis}
-
-You should use transition in your text, meaning that you should help
-the reader follow the thesis outline. Here, you tell what will be in
-each chapter of your thesis. 
 

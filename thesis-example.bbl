@@ -5,4 +5,15 @@
 \newblock {Denial of service attack}.
 \newblock \url{http://www.cert.org/tech_tips/denial_of_service.html}.
 
+\bibitem{OpenFlowWP}
+{\sc OpenFlow}.
+\newblock {Open Flow standard}.
+\newblock http://archive.openflow.org/.
+
+\bibitem{peng2007survey}
+{\sc Peng, T., Leckie, C., and Ramamohanarao, K.}
+\newblock Survey of network-based defense mechanisms countering the dos and
+  ddos problems.
+\newblock {\em ACM Computing Surveys (CSUR) 39}, 1 (2007), 3.
+
 \end{thebibliography}

@@ -5,8 +5,9 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces OpenFlow Switch components}}{10}{figure.2.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Aalto logo variants}}{12}{figure.A.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {In English}}}{12}{figure.A.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Suomeksi}}}{12}{figure.A.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {P\r a svenska}}}{12}{figure.A.1}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Aalto logo variants}}{13}{figure.A.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {In English}}}{13}{figure.A.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Suomeksi}}}{13}{figure.A.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {P\r a svenska}}}{13}{figure.A.1}

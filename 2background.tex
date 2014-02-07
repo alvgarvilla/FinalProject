@@ -11,11 +11,11 @@ A denial-of-service attack is characterized by an explicit attempt by attackers 
 \section{OpenFlow}
 \label{sec:BGOpenFlow}
 
-The explosion of mobile devices, server virtualization, security problems and advent of cloud service are among some of the reason that the networking industry is beginning to question the traditional network architecture. OpenFlow is intended to solve the problem of assigning resources to users in a easy-way giving them the control plane of the network without disturbing the traffic flows. 
+The explosion of mobile devices, server virtualization, security problems and advent of cloud service are among the reasons because the networking industry is beginning to question the traditional network architecture. OpenFlow is intended to solve the problem of assigning resources to users in a easy-way giving them the control plane of the network without disturbing the traffic flows. 
 
 \par 
 
-In traditional routers or switches, both control plane (high level routing decisions) and data plane (packet forwarding) are embedded in the same device. An OpenFlow Switch separate these two functions (Figure~\ref{fig:OpenFlowSwitch}). The data plane function still resides on the switch, while the control plane is moved to a separate device called Controller (see~\ref{subsec:OFController}) that manage the switch and communicate to each other over the Secure Channel (see~\ref{subsec:SCSecureChannel}) via the OpenFlow protocol (see~\ref{subsec:OFProtocolSC}).
+In traditional routers and switches, both control plane (high level routing decisions) and data plane (packet forwarding) are embedded in the same device. An OpenFlow Switch separate these two functions (Figure~\ref{fig:OpenFlowSwitch}). The data plane function still resides on the switch, while the control plane is moved to a separate device called Controller (see~\ref{subsec:OFController}) that manage the switch and communicate to each other over the Secure Channel (see~\ref{subsec:SCSecureChannel}) via the OpenFlow protocol (see~\ref{subsec:OFProtocolSC}).
 
 \par 
 
@@ -27,18 +27,24 @@ In traditional routers or switches, both control plane (high level routing decis
 
 \par 
 
+The switch contains \textit{flow tables} ~\ref{subsec:SCFlowTable}, which are update through OpenFlow protocol adding, updating and deleting its \textit{flow entries}. When the flow traffic arrives to the switch, it checks if the arrived packets match in the flow table, if so, the action defined in the flow entry is executed. Otherwise, the packet either is send it to the Controller or it is dropped.
 
+\bigskip
 
-
-\par 
-
-The firs version of the OpenFlow (1.1) protocol was released on 2011, and one year later, in February 2012, the ONF approved and published the version 1.2. Nowadays, the current version of the protocol and the one that will be used in this project is the 1.4.
+Throughout this section, we will explain in detail the main parts of the OpenFlow Switch, as well as the Controller and how they work together. The first version of the OpenFlow (1.1) protocol was released on 2011, one year later, in February 2012, the ONF approved and published the version 1.2. Nowadays, the current version of the protocol and the one that will be used in this project is the 1.4 ~\cite{OpenFlowSpecification}.
 
 \subsection{Switch Components}
 \label{subsec:PFSwitchComponents}
 
 \subsubsection{Flow Table}
-\label{subsec:SCFlowTable} 
+\label{subsec:SCFlowTable}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{./images/FlowEntryFormat.jpg}
+\caption{Flow entry components and match field headers} \label{fig:FlowEntryComponents}
+\end{figure}
+
 
 \subsubsection{Secure Channel}
 \label{subsec:SCSecureChannel}

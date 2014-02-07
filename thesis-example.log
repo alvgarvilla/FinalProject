@@ -1,11 +1,17 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  6 FEB 2014 17:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.23)  6 FEB 2014 23:32
 entering extended mode
  %&-line parsing enabled.
 **thesis-example.tex
 (./thesis-example.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -39,7 +45,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
 ))
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+(/var/lib/texmf/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
 (/usr/share/texmf-texlive/tex/generic/babel/finnish.ldf
@@ -50,26 +56,13 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Finnish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@finnish = a dialect from \language0
 Package babel Info: Making " an active character on input line 89.
-) (/usr/share/texmf-texlive/tex/generic/babel/swedish.ldf
+)
+(/usr/share/texmf-texlive/tex/generic/babel/swedish.ldf
 Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
-
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Swedish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@swedish = a dialect from \language0
-) (/usr/share/texmf-texlive/tex/generic/babel/english.ldf
+)
+(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -877,35 +870,44 @@ es (par-tic-u-lar routers)
 
 ) (./2background.tex [8]
 Chapter 2.
-<./images/OpenFlowSwitch.jpg, id=140, 587.19376pt x 833.1125pt>
+<./images/OpenFlowSwitch.jpg, id=141, 587.19376pt x 833.1125pt>
 File: ./images/OpenFlowSwitch.jpg Graphic file (type jpg)
 
-<use ./images/OpenFlowSwitch.jpg>) (./thesis-example.bbl [9
+<use ./images/OpenFlowSwitch.jpg> [9
 
-] [10 <./images/OpenFlowSwitch.jpg>]) (./appendices.tex [11
+]
+<./images/FlowEntryFormat.jpg, id=149, 1264.725pt x 296.10625pt>
+File: ./images/FlowEntryFormat.jpg Graphic file (type jpg)
+
+<use ./images/FlowEntryFormat.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./thesis-example.bbl [10 <./images/OpenFlowSwitch.jpg>] [11 <./images/FlowEn
+tryFormat.jpg>]) (./appendices.tex [12
 
 ]
 Appendix A.
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 <use images/aalto-logo-en.pdf>
-<images/aalto-logo-fi.pdf, id=160, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=169, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
-<images/aalto-logo-se.pdf, id=161, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=170, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
-<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [12
+<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [13
 
-] [13 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
+] [14 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
 ple.aux) ) 
 Here is how much of TeX's memory you used:
- 19230 strings out of 495061
- 355989 string characters out of 1182620
- 460346 words of memory out of 3000000
- 21910 multiletter control sequences out of 15000+50000
+ 19241 strings out of 493848
+ 356301 string characters out of 1152822
+ 461393 words of memory out of 3000000
+ 22015 multiletter control sequences out of 15000+50000
  11799 words of font info for 42 fonts, out of 3000000 for 9000
- 30 hyphenation exceptions out of 8191
+ 716 hyphenation exceptions out of 8191
  56i,12n,57p,776b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
@@ -915,9 +917,9 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on thesis-example.pdf (13 pages, 220611 bytes).
+Output written on thesis-example.pdf (14 pages, 355261 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

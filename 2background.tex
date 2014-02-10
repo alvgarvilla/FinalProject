@@ -8,6 +8,14 @@
 
 A denial-of-service attack is characterized by an explicit attempt by attackers to prevent the legitimate users of a service from using that service~\cite{dosCert} provided by a network or server. There are two manner to launch this kind of attack. The first approach is overwhelm the network and occupy all the resources of a service sending massive volumes of useless traffic
 
+\subsection{Protocol Attacks}
+
+
+
+\subsection{Bandwidth Attacks}
+
+\subsection{Logic Attacks}
+
 \section{OpenFlow}
 \label{sec:BGOpenFlow}
 
@@ -15,19 +23,19 @@ The explosion of mobile devices, server virtualization, security problems and ad
 
 \par 
 
-In traditional routers and switches, both control plane (high level routing decisions) and data plane (packet forwarding) are embedded in the same device. An OpenFlow Switch separate these two functions (Figure~\ref{fig:OpenFlowSwitch}). The data plane function still resides on the switch, while the control plane is moved to a separate device called Controller (see~\ref{subsec:OFController}) that manage the switch and communicate to each other over the Secure Channel (see~\ref{subsec:SCSecureChannel}) via the OpenFlow protocol (see~\ref{subsec:OFProtocolSC}).
+In traditional routers and switches, both control plane (high level routing decisions) and data plane (packet forwarding) are embedded in the same device. An OpenFlow Switch separates these two functions (Figure~\ref{fig:OpenFlowSwitch}). The data plane function still resides on the switch, while the control plane is moved to a separate device called Controller (see~\ref{subsec:OFController}) that manages the switch and communicates to each other over the Secure Channel (see~\ref{subsec:SCSecureChannel}) via the OpenFlow protocol (see~\ref{subsec:OFProtocolSC}).
 
 \par 
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.5\textwidth]{./images/OpenFlowSwitch.jpg}
+\includegraphics[width=0.8\textwidth]{./images/OpenFlowSwitch.pdf}
 \caption{OpenFlow Switch components} \label{fig:OpenFlowSwitch}
 \end{figure}
 
 \par 
 
-The switch contains \textit{flow tables} ~\ref{subsec:SCFlowTable}, which are update through OpenFlow protocol adding, updating and deleting its \textit{flow entries}. When the flow traffic arrives to the switch, it checks if the arrived packets match in the flow table, if so, the action defined in the flow entry is executed. Otherwise, the packet either is send it to the Controller or it is dropped.
+The switch contains \textit{flow tables} ~\ref{subsec:SCFlowTable}, which are updated through OpenFlow protocol adding, updating and deleting their \textit{flow entries}. When the flow traffic arrives to the switch, it checks if the arrived packets match in the flow table, if so, the action defined in the flow entry is executed. Otherwise, the packet is either sent it to the Controller or dropped.
 
 \bigskip
 
@@ -39,12 +47,28 @@ Throughout this section, we will explain in detail the main parts of the OpenFlo
 \subsubsection{Flow Table}
 \label{subsec:SCFlowTable}
 
-\begin{figure}[h]
+\begin{table}[h]
 \centering
-\includegraphics[width=1\textwidth]{./images/FlowEntryFormat.jpg}
-\caption{Flow entry components and match field headers} \label{fig:FlowEntryComponents}
-\end{figure}
+\begin{tabular}{ | c | c | c | c | c | c | }
+  \hline                       
+  Match Fields & Priority & Counters & Instructions & Timeouts & Cookie \\
+  \hline  
+\end{tabular}
+\caption{Main components of a flow entry}
+\end{table}
 
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ | c | c | c | c | c | c | c | c | c | c | c | c | }
+  \hline                       
+  \begin{sideways}Ingress Port\end{sideways} &\begin{sideways}Ether source\end{sideways}  &\begin{sideways}Ether dst\end{sideways}  &\begin{sideways}Ether type\end{sideways}  &\begin{sideways}VLAN id\end{sideways}  &\begin{sideways} VLAN priority\end{sideways} &\begin{sideways}IP src\end{sideways}  &\begin{sideways}IP dst\end{sideways}  &\begin{sideways}IP proto\end{sideways}  &\begin{sideways}IP ToS bits\end{sideways}  &\begin{sideways} src port\end{sideways} &\begin{sideways}dst port\end{sideways}  \\
+  \hline  
+\end{tabular}
+\caption{Main components of the Match Field}
+\end{table}
+
+\begin{sideways}\end{sideways}
 
 \subsubsection{Secure Channel}
 \label{subsec:SCSecureChannel}

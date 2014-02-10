@@ -7,7 +7,7 @@ The original aim of the Internet was to provide an open and scalable network amo
 
 \par
 
-Unfortunately, with the rapid growth of the Internet over the last two decades, the number of attacks on the Internet has also increased rapidly. One of this attacks, consist in disrupt the service provided by a network or server, either crashing the system sending some packets that exploit a software vulnerability or sending a large number of useless traffic to collapse the resources of the service. This kind of attack is known as Denial of Service (DoS) attack, or Distributed Denial of Service attack if is launched for multiple hosts.
+Unfortunately, with the rapid growth of the Internet over the last two decades, the number of attacks on the Internet has also increased rapidly. One of this attacks consists in disrupt the service provided by a network or server, either crashing the system sending some packets that exploit a software vulnerability or sending a large number of useless traffic to collapse the resources of the service. This kind of attack is known as Denial of Service (DoS) attack, or Distributed Denial of Service attack if it is launched by multiple hosts.
 
 \par
 
@@ -15,11 +15,11 @@ There are some design principles of the Internet that facility these kinds of at
 
 \par
 
-\textit{Resource sharing}: in IP networks, doubt to packet-switched service, users shares all the resources, and one user's service can be disturbed by other user's behaviour, so bandwidth attacks can disrupt service for legitimate users.
+\textit{Resource sharing}: in IP networks, due to the packet-switched service, users share all the resources, and one user's service can be disturbed by other user's behaviour, so bandwidth attacks can disrupt services for legitimate users.
 \par
-\textit{Simple Core and Complex Edge}: One of the principles of Internet is that the core network should be simple and push all the complexity into the end hosts. That means that the core of the networks is not able to integrate complex application, as authentication, security. Due to this simplification, when an attacker sends packets into the network and the victim receive them, it is almost impossible recognize the real owner of the packets.
+\textit{Simple Core and Complex Edge}: One of the principles of the Internet is that the core network should be simple and pushes all the complexity into the end hosts. That means that the core of the networks is not able to integrate complex applications, such as authentication, security. Due to this simplification, when an attacker sends packets into the network and the victim receives them, it is almost impossible to recognize the real owner of the packets.
 \par
-\textit{Fast Core Networks and Slow Edge Networks}: The Core Networks needs to have a high capacity due to the heavy traffic that has to support from many sources to many destinations. In contrast, an edge network needs less capacity because it only needs to support its end users. A disadvantage is that traffic from high-capacity core can crush the slow-capacity edge.
+\textit{Fast Core Networks and Slow Edge Networks}: The core networks needs to have high capacity due to the heavy traffic that has to support from many sources to many destinations. In contrast, an edge network needs less capacity because it only needs to support its end users. A disadvantage is that traffic from high-capacity core can crush the slow-capacity edge.
 
 \bigskip
 
@@ -27,7 +27,7 @@ Taking advantage of these principles and their vulnerabilities, have been arisin
  
 \par
 
-In the current network architecture, the network devices (particular routers) are bundle with a specialized control plane and various features. This vertical integration essentially binds you to whatever software and features are shipped with those particular devices. Software Defined Networking effectively breaks these pieces apart.
+In the current network architecture, the network devices (particularly routers) are bundle with a specialized control plane and various features. This vertical integration essentially binds you to whatever software and features are shipped with those particular devices. Software Defined Networking (SDN) effectively breaks these pieces apart.
 
 \par
 
@@ -39,11 +39,11 @@ One of the reasons to separate the control plane and the data plane is that the 
 
 \par
 
-A second reason is it allows the network to be controlled from a single high-level software program. The software used to control the network (in our case, POX), even though taking in count that use a high-level programming language, has a lower layer abstraction and increase the difficulty for the Network Programmers. Due this inconvenient, it is time to speak about \textit{Frenetic}.\textit{Frenetic} is a Network Programming language which gives a high-level abstraction from POX, allowing them direct control over the network. \textit{Pyretic (Python + Frenetic)} is one of the Frenetic family programming languages which provide a domain specific sub-language for specifying dataplane packet processing.
+A second reason is it allows the network to be controlled from a single high-level software program. This software, used to control the network (in our case, POX), even though taking in count that works with a high-level programming language, has a lower layer abstraction and the difficulty for the Network Programmers is increased. Due to this inconvenient, it is time to speak about \textit{Frenetic}~\cite{FreneticWP}.\textit{Frenetic} is a Network Programming language which gives a high-level abstraction from POX, allowing them direct control over the network. \textit{Pyretic (Python + Frenetic)} is one of the Frenetic family programming languages which provide a domain specific sub-language for specifying dataplane packet processing.
 
 \par
 
-The aim of this survey is how might SDN help us to improve current DDoS defense mechanism. Throughout this project, we will review the main DDoS defense and attack mechanisms and further some algorithms already developed and how could be improve them with OpenFlow. We will test these algorithms on virtual scenarios-through Mininet.
+The aim of this survey is how might SDN help us to improve current DDoS defense mechanism. Throughout this project, we will review the main DDoS defense and attack mechanisms and further we will go through some algorithms already developed and then, we will explain how could be improve them with OpenFlow. We will test these algorithms on virtual scenarios-through Mininet.
 
 \bigskip
 

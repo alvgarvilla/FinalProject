@@ -5,6 +5,17 @@
 \newblock {Denial of service attack}.
 \newblock \url{http://www.cert.org/tech_tips/denial_of_service.html}.
 
+\bibitem{FreneticWP}
+{\sc Frenetic}.
+\newblock {Frenetic official webpage}.
+\newblock http://frenetic-lang.org/overview.php.
+
+\bibitem{CiscoTCPSYN}
+{\sc Inc., C.}
+\newblock {Defenses Against TCP SYN Flooding Attacks}.
+\newblock
+  http://www.cisco.com/web/about/ac123/ac147/archived_issues/ipj_9-4/syn_flooding_attacks.html.
+
 \bibitem{OpenFlowWP}
 {\sc OpenFlow}.
 \newblock {Open Flow standard}.

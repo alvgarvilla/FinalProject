@@ -97,6 +97,9 @@
 \usepackage{listings}
 \usepackage{dcolumn}
 \usepackage{rotating}
+\usepackage{array}
+
+
 
 % Font selection
 % ------------------------------------------------------------------
@@ -274,13 +277,13 @@
 % ``twoinstructors'' to the aalto-thesis package so that the titles are in
 % plural.
 % Example of one supervisor:
-\newcommand{\SUPERVISOR}{Assoc. Prof. Aapo Kalliola}
+ \newcommand{\SUPERVISOR}{Aapo Kalliola M.Sc. (Tech.)}
 % Example of twosupervisors:
 %\newcommand{\SUPERVISOR}{Professor Keijo Heljanko}
 
 
 % If you have only one instructor, just write one name here
-\newcommand{\INSTRUCTOR}{Assoc. Prof. Aapo Kalliola}
+\newcommand{\INSTRUCTOR}{Aapo Kalliola M.Sc. (Tech.)}
 % If you have two instructors, separate them with \\ to create linefeeds
 % \newcommand{\INSTRUCTOR}{Olli Ohjaaja M.Sc. (Tech.)\\
 %  Elli Opas M.Sc. (Tech)}
@@ -394,8 +397,6 @@
 % ------------------------------------------------------------------
 \thesisabstract{english}{
 
-The original aim of the Internet was to provide an open and scalable network among research and educational communities, where billions of users are served through a global system of interconnected computer networks.
-\par
 Since DoS attacks are becoming more commons and emerging new technologies to separate the control plane and the data plane from the network devices (SDN), throughout this survey we will investigate how OpenFlow can help to prevent and locate these kinds of attacks. We will study the different DoS attacks and the current mitigation techniques. We will discuss as well, which of these techniques could be improved with OpenFlow and how develop them. In the end, we will implement and test some identified mitigation techniques and we will study their behaviour.
 
 %\fixme{Abstract text goes here (and this is an example how to use fixme).} 
@@ -487,7 +488,7 @@ Since DoS attacks are becoming more commons and emerging new technologies to sep
 % Add headings to pages (the chapter title is shown)
 \pagestyle{headings}
 
-% The contents of the thesis are separated to their own files.
+% The contentthesis are separated to their own files.
 % Edit the content in these files, rename them as necessary.
 % ------------------------------------------------------------------
 \input{1introduction.tex}
@@ -499,19 +500,8 @@ Since DoS attacks are becoming more commons and emerging new technologies to sep
 %\input{3environment.tex}
 
 %\input{4methods.tex}
-
-%\input{4methods2.tex}
-
-%\input{4method3.tex}
  
-%\input{5implementation.tex}
-
-%\input{6evaluation.tex}
  
-%\input{7discussion.tex}
- 
-%\input{8conclusions.tex}
-
 
 % Load the bibliographic references
 % ------------------------------------------------------------------

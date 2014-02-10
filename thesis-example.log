@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  7 FEB 2014 10:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  10 FEB 2014 16:33
 entering extended mode
  %&-line parsing enabled.
 **thesis-example.tex
@@ -782,29 +782,29 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
 \Fld@listcount=\count148
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 238.
-Package hyperref Info: Option `raiselinks' set `false' on input line 238.
-Package hyperref Info: Option `breaklinks' set `true' on input line 238.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 240.
+Package hyperref Info: Option `colorlinks' set `false' on input line 241.
+Package hyperref Info: Option `raiselinks' set `false' on input line 241.
+Package hyperref Info: Option `breaklinks' set `true' on input line 241.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 243.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 243.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 246.
  (./thesis-example.aux)
 \openout1 = `thesis-example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 373.
-LaTeX Font Info:    ... okay on input line 373.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 376.
+LaTeX Font Info:    ... okay on input line 376.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 376.
+LaTeX Font Info:    ... okay on input line 376.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 376.
+LaTeX Font Info:    ... okay on input line 376.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 376.
+LaTeX Font Info:    ... okay on input line 376.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 376.
+LaTeX Font Info:    ... okay on input line 376.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 376.
+LaTeX Font Info:    ... okay on input line 376.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 376.
+LaTeX Font Info:    ... okay on input line 376.
 \c@lstlisting=\count149
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -819,7 +819,7 @@ LaTeX Font Info:    ... okay on input line 373.
 \MPnumerator=\count154
 \everyMPtoPDFconversion=\toks43
 ) ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 373.
+Package hyperref Info: Link coloring OFF on input line 376.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -829,8 +829,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 373.
-LaTeX Info: Redefining \pageref on input line 373.
+LaTeX Info: Redefining \ref on input line 376.
+LaTeX Info: Redefining \pageref on input line 376.
 
 (./thesis-example.out) (./thesis-example.out)
 \@outlinefile=\write4
@@ -840,7 +840,7 @@ LaTeX Info: Redefining \pageref on input line 373.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/aalto-logo-en.pdf, id=74, 302.3837pt x 132.96776pt>
+<images/aalto-logo-en.pdf, id=114, 302.3837pt x 132.96776pt>
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-en.pdf> [2 <./images/aalto-logo-en.pdf>] [3
@@ -869,64 +869,91 @@ Chapter 1.
 [7
 
 
-]
-Overfull \hbox (9.23058pt too wide) in paragraph at lines 30--31
-[]\OT1/cmr/m/n/12 In the cur-rent net-work ar-chi-tec-ture, the net-work de-vic
-es (par-tic-u-lar routers)
- []
-
-) (./2background.tex [8]
+]) (./2background.tex [8]
 Chapter 2.
-<./images/OpenFlowSwitch.jpg, id=146, 587.19376pt x 833.1125pt>
-File: ./images/OpenFlowSwitch.jpg Graphic file (type jpg)
+<./images/OpenFlowSwitch.pdf, id=200, 780.9175pt x 411.5375pt>
+File: ./images/OpenFlowSwitch.pdf Graphic file (type pdf)
 
-<use ./images/OpenFlowSwitch.jpg> [9
+<use ./images/OpenFlowSwitch.pdf> [9
 
 ]
-<./images/FlowEntryFormat.jpg, id=154, 1264.725pt x 296.10625pt>
-File: ./images/FlowEntryFormat.jpg Graphic file (type jpg)
-
-<use ./images/FlowEntryFormat.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./thesis-example.bbl [10 <./images/OpenFlowSwitch.jpg>] [11 <./images/FlowEn
-tryFormat.jpg>]) (./appendices.tex [12
+) (./3theory.tex [10 <./images/OpenFlowSwitch.pdf>] [11]
+Chapter 3.
+<./images/TCPHandshake.pdf, id=242, 418.56375pt x 568.1225pt>
+File: ./images/TCPHandshake.pdf Graphic file (type pdf)
+
+<use ./images/TCPHandshake.pdf>
+<./images/TCPSynAttak.pdf, id=243, 418.56375pt x 568.1225pt>
+File: ./images/TCPSynAttak.pdf Graphic file (type pdf)
+
+<use ./images/TCPSynAttak.pdf> [12
+
+]
+
+pdfTeX warning: pdflatex (file ./images/DirectAttackSYN.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.4> allowed
+<./images/DirectAttackSYN.pdf, id=251, 546.04pt x 1003.75pt>
+File: ./images/DirectAttackSYN.pdf Graphic file (type pdf)
+
+<use ./images/DirectAttackSYN.pdf>
+
+pdfTeX warning: pdflatex (file ./images/SpoofedAttackSYN.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.4> allowed
+<./images/SpoofedAttackSYN.pdf, id=252, 1003.75pt x 1003.75pt>
+File: ./images/SpoofedAttackSYN.pdf Graphic file (type pdf)
+
+<use ./images/SpoofedAttackSYN.pdf>
+
+pdfTeX warning: pdflatex (file ./images/DistributedAttackSYN.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.4> allowed
+<./images/DistributedAttackSYN.pdf, id=253, 1003.75pt x 1003.75pt>
+File: ./images/DistributedAttackSYN.pdf Graphic file (type pdf)
+
+<use ./images/DistributedAttackSYN.pdf>) (./thesis-example.bbl [13 <./images/TC
+PHandshake.pdf> <./images/TCPSynAttak.pdf>] [14 <./images/DirectAttackSYN.pdf> 
+<./images/SpoofedAttackSYN.pdf> <./images/DistributedAttackSYN.pdf>])
+(./appendices.tex [15
 
 ]
 Appendix A.
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 <use images/aalto-logo-en.pdf>
-<images/aalto-logo-fi.pdf, id=174, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=370, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
-<images/aalto-logo-se.pdf, id=175, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=371, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
-<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [13
+<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [16
 
-] [14 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
-ple.aux) ) 
+] [17 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
+ple.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 19247 strings out of 495061
- 356427 string characters out of 1182620
- 460471 words of memory out of 3000000
- 21922 multiletter control sequences out of 15000+50000
+ 19341 strings out of 495061
+ 358427 string characters out of 1182620
+ 462332 words of memory out of 3000000
+ 21987 multiletter control sequences out of 15000+50000
  11799 words of font info for 42 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 56i,12n,57p,776b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-
-Output written on thesis-example.pdf (14 pages, 355810 bytes).
+ 56i,12n,57p,809b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on thesis-example.pdf (17 pages, 1644109 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

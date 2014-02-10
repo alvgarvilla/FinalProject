@@ -1,0 +1,76 @@
+
+
+\chapter{Theory}
+\label{chapter:theory}
+
+\section{Protocol Attacks: TCP SYN Flooding}
+
+TCP (Transmission Control Protocol) is one of the most common protocols within the transport layer, and one of the core of the Internet Protocol suite (IP). TCP provides reliable, ordered, error-checked of stream of packets between two hosts. In addition to these characteristics, TCP is a connection-oriented protocol, that is, before starting the exchange of information a prior connection between both parties is necessary. This process is known as TCP three-way handshake (Figure \ref{fig:TCPHandshake}).
+
+\par
+
+Suppose \textit{X} as a client that wants to carry out a friendly TCP connection with the server \textit{Y}. First of all, \textit{X} requests by sending a synchronize \textit{(SYN)} message to \textit{Y}. The server receives the request and responses by sending an acknowledge \textit{(SYN-ACK)} back to the client. Once the client receives the SYN-ACK, it responses with an ACK, an the connection is established. 
+
+\par
+
+While the server waits for the \textit{SYN-ACK's} response, it keeps the connection in a half open state and maintains a backlog queue for the information about the connections. Once the server receives the \textit{ACK}, it changes the state to \textit{established} and frees up memory of the queue. Because the size of the backlog queue is not infinite, the half-open connection will remain on it until a time-out is exceeded. In the case that the queue is full, all new incoming connection requests will be dropped.
+
+\bigskip
+
+\textbf{TCP SYN Flooding attack}, as suggested by the name, aims to exhaust the server's backlog queue flooding it with \textit{SYN} messages, but once they receive the corresponding \textit{SYN-ACK} from the server, they will not response with the \textit{acknowledge} message, forcing the server to keep the connection information in the backlog queue until the time-out is exceeded (Figure \ref{fig:SYNFlooding}). As a result, when a \textit{friendly} client wants to set up a TCP connection with the server, will be denied.
+
+\par 
+
+\begin{figure}[htb]
+	\centering
+	\subfigure[TCP Tree-way handshake]{%
+		\includegraphics[width=0.5\textwidth]{./images/TCPHandshake.pdf}%
+		\label{fig:TCPHandshake}%
+	}%
+	\hfill
+	\subfigure[SYN Flooding]{%
+		\includegraphics[width=0.5\textwidth]{./images/TCPSynAttak.pdf}%
+		\label{fig:SYNFlooding}%
+	}%
+	\caption{TCP Three-way handshake and SYN Flooding} 
+	\label{fig:TCPConnections}
+\end{figure}
+
+\par 
+
+
+\subsection{Methods of Attack}
+\label{subsec:SYNMethodsOfAttacks}
+
+The attack can be categorized depending on how the attacker carries out the attack over the victim: Direct Attack, Spoofed-based Attack and Distributed Attack ~\cite{CiscoTCPSYN}.
+
+\begin{figure}[htb]
+	\centering
+	\subfigure[Direct Attack]{%
+		\includegraphics[height=0.5\textwidth]{./images/DirectAttackSYN.pdf}%
+		\label{fig:DirectAttackSYN}%
+	}%
+	\hfill
+	\subfigure[Distributed Attack]{%
+		\includegraphics[width=0.5\textwidth]{./images/SpoofedAttackSYN.pdf}%
+		\label{fig:SpoofedAttackSYN}%
+	}%
+	\hfill
+	\subfigure[Spoofed-based Attack]{%
+		\includegraphics[width=0.5\textwidth]{./images/DistributedAttackSYN.pdf}%
+		\label{fig:DistributedAttackSYN}%
+	}%
+	\caption{Methods of Attack} 
+	\label{fig:MethodsAttacksSYN}
+\end{figure}
+
+\subsubsection{Direct Attack}
+\label{subsec:SYNDirectAttack}
+
+\subsubsection{Sppofed-based Attack}
+\label{subsec:SYNSpoofedAttack}
+
+\subsubsection{Distributed Attack}
+\label{subsec:SYNDistributedAttack}
+
+\subsection{Prevention and Response}

@@ -10,12 +10,11 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces TCP Three-way handshake and SYN Flooding}}{13}{figure.3.1}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {TCP Tree-way handshake}}}{13}{figure.3.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SYN Flooding}}}{13}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Methods of Attack}}{14}{figure.3.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Direct Attack}}}{14}{figure.3.2}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Distributed Attack}}}{14}{figure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Spoofed-based Attack}}}{14}{figure.3.2}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Direct Attack}}{14}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Spoofed-based Attack}}{14}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Distributed Attack}}{15}{figure.3.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Aalto logo variants}}{17}{figure.A.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {In English}}}{17}{figure.A.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Suomeksi}}}{17}{figure.A.1}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {P\r a svenska}}}{17}{figure.A.1}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Aalto logo variants}}{18}{figure.A.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {In English}}}{18}{figure.A.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Suomeksi}}}{18}{figure.A.1}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {P\r a svenska}}}{18}{figure.A.1}

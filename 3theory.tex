@@ -5,7 +5,7 @@
 
 \section{Protocol Attacks: TCP SYN Flooding}
 
-TCP (Transmission Control Protocol) is one of the most common protocols within the transport layer, and one of the core of the Internet Protocol suite (IP). TCP provides reliable, ordered, error-checked of stream of packets between two hosts. In addition to these characteristics, TCP is a connection-oriented protocol, that is, before starting the exchange of information a prior connection between both parties is necessary. This process is known as TCP three-way handshake (Figure \ref{fig:TCPHandshake}).
+TCP (Transmission Control Protocol) is one of the most common protocols within the transport layer, and one of the core of the Internet Protocol suite (IP). TCP provides reliable, ordered, error-checked of stream of packets between two hosts. In addition to these characteristics, TCP is a connection-oriented protocol, that is, a prior connection between both parties is necessary before starting the exchange of information. This process is known as TCP three-way handshake (Figure \ref{fig:TCPHandshake}).
 
 \par
 
@@ -17,7 +17,7 @@ While the server waits for the \textit{SYN-ACK's} response, it keeps the connect
 
 \bigskip
 
-\textbf{TCP SYN Flooding attack}, as suggested by the name, aims to exhaust the server's backlog queue flooding it with \textit{SYN} messages, but once they receive the corresponding \textit{SYN-ACK} from the server, they will not response with the \textit{acknowledge} message, forcing the server to keep the connection information in the backlog queue until the time-out is exceeded (Figure \ref{fig:SYNFlooding}). As a result, when a \textit{friendly} client wants to set up a TCP connection with the server, will be denied.
+\textbf{TCP SYN Flooding attack}, as suggested by the name, aims to exhaust the server's backlog queue flooding it with \textit{SYN} messages, but once they receive the corresponding \textit{SYN-ACK} from the server, they will not response with the \textit{acknowledge} message, forcing the server to keep the connection information in the backlog queue until the time-out is exceeded (Figure \ref{fig:SYNFlooding}). As a result, when a \textit{friendly} client wants to set up a TCP connection with the server, will be denied. The biggest challenge of the attacker is ensure that the source IP address which is used to establish the connection is not reachable by the server. Otherwise, the source will send a \textit{RST} packet to the server that cause server to reset the connection and free up the memory of the queue.
 
 
 \begin{figure}[htb]
@@ -42,33 +42,40 @@ While the server waits for the \textit{SYN-ACK's} response, it keeps the connect
 
 The attack can be categorized depending on how the attacker carries out the attack over the victim: Direct Attack, Spoofed-based Attack and Distributed Attack ~\cite{CiscoTCPSYN}.
 
-\begin{figure}[htb]
-	\centering
-	\subfigure[Direct Attack]{%
-		\includegraphics[height=0.5\textwidth]{./images/DirectAttackSYN.pdf}%
-		\label{fig:DirectAttackSYN}%
-	}%
-	\hfill
-	\subfigure[Distributed Attack]{%
-		\includegraphics[width=0.5\textwidth]{./images/SpoofedAttackSYN.pdf}%
-		\label{fig:SpoofedAttackSYN}%
-	}%
-	\hfill
-	\subfigure[Spoofed-based Attack]{%
-		\includegraphics[width=0.5\textwidth]{./images/DistributedAttackSYN.pdf}%
-		\label{fig:DistributedAttackSYN}%
-	}%
-	\caption{Methods of Attack} 
-	\label{fig:MethodsAttacksSYN}
-\end{figure}
 
-\subsubsection{Direct Attack}
+\subsubsection{Direct Attack (Figure \ref{fig:DirectAttackSYN}) }
 \label{subsec:SYNDirectAttack}
 
-\subsubsection{Sppofed-based Attack}
+\begin{figure}[H]
+\centering
+\includegraphics[height=0.4\textwidth]{./images/DirectAttackSYN.pdf}
+\caption{Direct Attack} \label{fig:DirectAttackSYN}
+\end{figure}
+
+In this case, the attacker is the one that accomplishes the attack direct to the victim. It does not even spoof the source IP address. Instead, it will just ensures that there will not be response after it receives the \textit{SYN-ACK} message.
+
+\subsubsection{Spoofed-based Attack (Figure \ref{fig:SpoofedAttackSYN})}
 \label{subsec:SYNSpoofedAttack}
 
-\subsubsection{Distributed Attack}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{./images/SpoofedAttackSYN.pdf}
+\caption{Spoofed-based Attack} \label{fig:SpoofedAttackSYN}
+\end{figure}
+
+This version of SYN flooding attack direct to the victim, but it spoofs the source IP address in the \textit{SYN} packet. As we have explained before, a primary consideration is address selection. An attacker can choose spoofed IP address either using a single source which is known that will not response the \textit{SYN-ACK}, or using a list of source address under the assumption that some percentage of them will not response.
+
+
+\subsubsection{Distributed Attack (Figure \ref{fig:DistributedAttackSYN})}
 \label{subsec:SYNDistributedAttack}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{./images/DistributedAttackSYN.pdf}
+\caption{Distributed Attack} \label{fig:DistributedAttackSYN}
+\end{figure}
+
+In this case, the attacker carries out the attack through numerous zombie machines in internet. This attack is much more difficult to counter, due to the attacker is not the one that accomplish the attack. Zombie machines are constantly added and removed from the botnet.
+
 
 \subsection{Prevention and Response}

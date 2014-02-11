@@ -19,7 +19,6 @@ While the server waits for the \textit{SYN-ACK's} response, it keeps the connect
 
 \textbf{TCP SYN Flooding attack}, as suggested by the name, aims to exhaust the server's backlog queue flooding it with \textit{SYN} messages, but once they receive the corresponding \textit{SYN-ACK} from the server, they will not response with the \textit{acknowledge} message, forcing the server to keep the connection information in the backlog queue until the time-out is exceeded (Figure \ref{fig:SYNFlooding}). As a result, when a \textit{friendly} client wants to set up a TCP connection with the server, will be denied.
 
-\par 
 
 \begin{figure}[htb]
 	\centering
@@ -36,7 +35,6 @@ While the server waits for the \textit{SYN-ACK's} response, it keeps the connect
 	\label{fig:TCPConnections}
 \end{figure}
 
-\par 
 
 
 \subsection{Methods of Attack}

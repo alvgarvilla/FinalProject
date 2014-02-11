@@ -1,11 +1,17 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  10 FEB 2014 16:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.23)  10 FEB 2014 22:07
 entering extended mode
  %&-line parsing enabled.
 **thesis-example.tex
 (./thesis-example.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -39,7 +45,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
 ))
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+(/var/lib/texmf/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
 (/usr/share/texmf-texlive/tex/generic/babel/finnish.ldf
@@ -50,26 +56,13 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Finnish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@finnish = a dialect from \language0
 Package babel Info: Making " an active character on input line 89.
-) (/usr/share/texmf-texlive/tex/generic/babel/swedish.ldf
+)
+(/usr/share/texmf-texlive/tex/generic/babel/swedish.ldf
 Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
-
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Swedish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@swedish = a dialect from \language0
-) (/usr/share/texmf-texlive/tex/generic/babel/english.ldf
+)
+(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -931,26 +924,23 @@ File: images/aalto-logo-se.pdf Graphic file (type pdf)
 <use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [16
 
 ] [17 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
-ple.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ple.aux) ) 
 Here is how much of TeX's memory you used:
- 19341 strings out of 495061
- 358427 string characters out of 1182620
- 462332 words of memory out of 3000000
- 21987 multiletter control sequences out of 15000+50000
+ 19339 strings out of 493848
+ 358409 string characters out of 1152822
+ 463319 words of memory out of 3000000
+ 22083 multiletter control sequences out of 15000+50000
  11799 words of font info for 42 fonts, out of 3000000 for 9000
- 30 hyphenation exceptions out of 8191
+ 716 hyphenation exceptions out of 8191
  56i,12n,57p,809b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+
 Output written on thesis-example.pdf (17 pages, 1644109 bytes).
 PDF statistics:
  431 PDF objects out of 1000 (max. 8388607)

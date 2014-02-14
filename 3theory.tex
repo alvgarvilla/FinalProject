@@ -1,5 +1,6 @@
 
 
+
 \chapter{Theory}
 \label{chapter:theory}
 
@@ -79,3 +80,30 @@ In this case, the attacker carries out the attack through numerous zombie machin
 
 
 \subsection{Prevention and Response}
+
+Explain host-end defense and network defense. We will use network defense.
+
+\subsection{TCP FLOODING DEFENSE PROPOSED (DRAFT!!!!)}
+
+Hi Aapo, this is an another idea that I have thought using anomaly detection. Basically, I will implement two different kinds of anomaly detection, one to control the amount of traffic and the other filtering the headers of the packets to check if they have something unusual (IP header length, TCP payload, TCP TTL...). Also there will be implemented a Rate-Limiting filter, using a "delay-queue". I will try to explain you the main idea by steps below:\\
+
+If the amount of traffic is usual, the router will follow the flow traffic as usual to the server but the Controller will store the IPs address that complete the three handshake connection in a "working set"(for future connection if an attack is detected).\\
+
+Once the anomaly detection system detects that the traffic is bigger than a boundary or is increasing rapidly, it will be launch the defense mechanism, installing a flow match in the flow table that all the TCP SYN packets that arrive to the switch, will be send them to the Controller.\\
+
+The scope of the controller is as follow:\\
+
+First, it will match the incoming IP address with the "working set", if so, two flows in either directions between the internal host and the remote host will be set in the flow table. If it does not match, the other anomaly detection system will filter the headers of the packet (There is a survey that I have attached in the email that explain this algorithm, but you can see it in the Figure \ref{fig:AlgorithmAnomalyDetection}). It might happen:\\
+
+1. If everything is OK, the request connection will be enqueue in the delay-queue (to control the rate of the incoming connections). Every \textit{d} seconds a new connection will be moved from the queue to the switch to forward it to the server. Whenever a positive connection reply, the IP address will be store in the "working set" and the new flow entries will be set in the flow table.\\
+
+2. If some anomaly in the packet is detected, the IP address will be store in a "suspect IP addresses table". Here I am not sure what can I do yet, either drop the packet or the switch can send the SYN-ACK back, and if it response, a new flow entry will be set in the flow table.\\
+
+I know that the packet header filtering will not find all the attacks, but at least a big part of them. The main idea is that the server will receive the traffic in a fixed rate and not whole the traffic that arrive to the network.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1\textwidth]{./images/AlgorithmAnomalyDetection.png}
+\caption{Packet Filtering Algorithm} \label{fig:AlgorithmAnomalyDetection}
+\end{figure}
+

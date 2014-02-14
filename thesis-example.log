@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  11 FEB 2014 17:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  14 FEB 2014 16:51
 entering extended mode
  %&-line parsing enabled.
 **thesis-example.tex
@@ -848,7 +848,7 @@ LaTeX Info: Redefining \pageref on input line 377.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/aalto-logo-en.pdf, id=114, 302.3837pt x 132.96776pt>
+<images/aalto-logo-en.pdf, id=118, 302.3837pt x 132.96776pt>
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-en.pdf> [2 <./images/aalto-logo-en.pdf>] [3
@@ -879,7 +879,7 @@ Chapter 1.
 
 ]) (./2background.tex [8]
 Chapter 2.
-<./images/OpenFlowSwitch.pdf, id=207, 780.9175pt x 411.5375pt>
+<./images/OpenFlowSwitch.pdf, id=214, 780.9175pt x 411.5375pt>
 File: ./images/OpenFlowSwitch.pdf Graphic file (type pdf)
 
 <use ./images/OpenFlowSwitch.pdf> [9
@@ -896,21 +896,21 @@ Chapter 3.
 
 pdfTeX warning: pdflatex (file ./images/TCPHandshake.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.4> allowed
-<./images/TCPHandshake.pdf, id=255, 418.56375pt x 568.1225pt>
+<./images/TCPHandshake.pdf, id=262, 418.56375pt x 568.1225pt>
 File: ./images/TCPHandshake.pdf Graphic file (type pdf)
 
 <use ./images/TCPHandshake.pdf>
 
 pdfTeX warning: pdflatex (file ./images/TCPSynAttak.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.4> allowed
-<./images/TCPSynAttak.pdf, id=256, 418.56375pt x 568.1225pt>
+<./images/TCPSynAttak.pdf, id=263, 418.56375pt x 568.1225pt>
 File: ./images/TCPSynAttak.pdf Graphic file (type pdf)
 
 <use ./images/TCPSynAttak.pdf>
 
 pdfTeX warning: pdflatex (file ./images/DirectAttackSYN.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.4> allowed
-<./images/DirectAttackSYN.pdf, id=259, 546.04pt x 1003.75pt>
+<./images/DirectAttackSYN.pdf, id=266, 546.04pt x 1003.75pt>
 File: ./images/DirectAttackSYN.pdf Graphic file (type pdf)
 
 <use ./images/DirectAttackSYN.pdf> [13 <./images/TCPHandshake.pdf> <./images/TC
@@ -918,7 +918,7 @@ PSynAttak.pdf>]
 
 pdfTeX warning: pdflatex (file ./images/SpoofedAttackSYN.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.4> allowed
-<./images/SpoofedAttackSYN.pdf, id=311, 1003.75pt x 1003.75pt>
+<./images/SpoofedAttackSYN.pdf, id=318, 1003.75pt x 1003.75pt>
 File: ./images/SpoofedAttackSYN.pdf Graphic file (type pdf)
 
 <use ./images/SpoofedAttackSYN.pdf> [14 <./images/DirectAttackSYN.pdf> <./image
@@ -926,32 +926,80 @@ s/SpoofedAttackSYN.pdf>]
 
 pdfTeX warning: pdflatex (file ./images/DistributedAttackSYN.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.4> allowed
-<./images/DistributedAttackSYN.pdf, id=358, 1003.75pt x 1003.75pt>
+<./images/DistributedAttackSYN.pdf, id=365, 1003.75pt x 1003.75pt>
 File: ./images/DistributedAttackSYN.pdf Graphic file (type pdf)
 
-<use ./images/DistributedAttackSYN.pdf>) (./thesis-example.bbl [15 <./images/Di
-stributedAttackSYN.pdf>]) (./appendices.tex [16
+<use ./images/DistributedAttackSYN.pdf>
+Overfull \hbox (52.85918pt too wide) in paragraph at lines 86--86
+ |[]\OT1/cmr/bx/n/14.4 TCP FLOOD-ING DE-FENSE PRO-POSED (DRAFT!!!!)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[15 <./images/DistributedAttackSYN.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+<./images/AlgorithmAnomalyDetection.png, id=396, 722.7pt x 598.235pt>
+File: ./images/AlgorithmAnomalyDetection.png Graphic file (type png)
+
+<use ./images/AlgorithmAnomalyDetection.png> [16]) (./thesis-example.bbl
+[17 <./images/AlgorithmAnomalyDetection.png>]) (./appendices.tex [18
 
 ]
 Appendix A.
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 <use images/aalto-logo-en.pdf>
-<images/aalto-logo-fi.pdf, id=398, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=417, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
-<images/aalto-logo-se.pdf, id=399, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=418, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
-<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [17
+<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [19
 
-] [18 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
+] [20 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
 ple.aux) ) 
 Here is how much of TeX's memory you used:
- 19387 strings out of 495061
- 358888 string characters out of 1182620
- 463601 words of memory out of 3000000
- 22029 multiletter control sequences out of 15000+50000
+ 19399 strings out of 495061
+ 359208 string characters out of 1182620
+ 463655 words of memory out of 3000000
+ 22036 multiletter control sequences out of 15000+50000
  11799 words of font info for 42 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  56i,12n,57p,883b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -963,9 +1011,9 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on thesis-example.pdf (18 pages, 1560139 bytes).
+Output written on thesis-example.pdf (20 pages, 1624211 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 479 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 

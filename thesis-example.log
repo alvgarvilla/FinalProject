@@ -1,17 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.23)  10 FEB 2014 22:07
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.11.22)  14 FEB 2014 16:51
 entering extended mode
  %&-line parsing enabled.
 **thesis-example.tex
 (./thesis-example.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -45,7 +39,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
 ))
-(/var/lib/texmf/tex/generic/babel/babel.sty
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
 (/usr/share/texmf-texlive/tex/generic/babel/finnish.ldf
@@ -56,13 +50,26 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Finnish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@finnish = a dialect from \language0
 Package babel Info: Making " an active character on input line 89.
-)
-(/usr/share/texmf-texlive/tex/generic/babel/swedish.ldf
+) (/usr/share/texmf-texlive/tex/generic/babel/swedish.ldf
 Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
-)
-(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
+
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Swedish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@swedish = a dialect from \language0
+) (/usr/share/texmf-texlive/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -140,17 +147,25 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box28
 \rot@mess@toks=\toks19
 )
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks20
+\float@box=\box29
+\@float@everytoks=\toks21
+\@floatcapt=\box30
+)
 (/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
 Package: natbib 2009/07/16 8.31 (PWD, AO)
 \bibhang=\skip47
 \bibsep=\skip48
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count99
+\c@NAT@ctr=\count100
 )
 (/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks20
-\verbatim@line=\toks21
+\every@verbatim=\toks22
+\verbatim@line=\toks23
 \verbatim@in@stream=\read1
 )
 (/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
@@ -159,17 +174,17 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip50
 \LTpre=\skip51
 \LTpost=\skip52
-\LTchunksize=\count100
+\LTchunksize=\count101
 \LTcapwidth=\dimen112
-\LT@head=\box29
-\LT@firsthead=\box30
-\LT@foot=\box31
-\LT@lastfoot=\box32
-\LT@cols=\count101
-\LT@rows=\count102
-\c@LT@tables=\count103
-\c@LT@chunks=\count104
-\LT@p@ftn=\toks22
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count102
+\LT@rows=\count103
+\c@LT@tables=\count104
+\c@LT@chunks=\count105
+\LT@p@ftn=\toks24
 )
 (/usr/share/texmf-texlive/tex/latex/acronym/acronym.sty
 Package: acronym 2009/01/25 v1.34 Support for acronyms (Tobias Oetiker)
@@ -177,7 +192,7 @@ Package: acronym 2009/01/25 v1.34 Support for acronyms (Tobias Oetiker)
 (/usr/share/texmf-texlive/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5 Variant command support
 )
-\AC@clearlist=\toks23
+\AC@clearlist=\toks25
 )
 (/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
@@ -187,10 +202,10 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip55
 \subfigcapmargin=\dimen114
 \subfiglabelskip=\skip56
-\c@subfigure=\count105
-\c@lofdepth=\count106
-\c@subtable=\count107
-\c@lotdepth=\count108
+\c@subfigure=\count106
+\c@lofdepth=\count107
+\c@subtable=\count108
+\c@lotdepth=\count109
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -201,12 +216,12 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 )
 (/usr/share/texmf-texlive/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2007/08/12 v2.8 Sectioning titles
-\ttl@box=\box33
+\ttl@box=\box35
 \beforetitleunit=\skip59
 \aftertitleunit=\skip60
 \ttl@plus=\dimen115
 \ttl@minus=\dimen116
-\ttl@toksa=\toks24
+\ttl@toksa=\toks26
 \titlewidth=\dimen117
 \titlewidthlast=\dimen118
 \titlewidthfirst=\dimen119
@@ -215,10 +230,10 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks25
+\pgfutil@everybye=\toks27
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box34
+\pgfutil@abb=\box36
 
 (/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -234,11 +249,11 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks30
 ))
 \pgf@x=\dimen120
 \pgf@y=\dimen121
@@ -250,10 +265,10 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 \pgf@yc=\dimen127
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count109
-\c@pgf@countb=\count110
-\c@pgf@countc=\count111
-\c@pgf@countd=\count112
+\c@pgf@counta=\count110
+\c@pgf@countb=\count111
+\c@pgf@countc=\count112
+\c@pgf@countd=\count113
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -268,8 +283,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count113
-\pgfsyssoftpath@bigbuffer@items=\count114
+\pgfsyssoftpath@smallbuffer@items=\count114
+\pgfsyssoftpath@bigbuffer@items=\count115
 )
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -299,11 +314,11 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen128
-\pgfmath@count=\count115
-\pgfmath@box=\box35
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@count=\count116
+\pgfmath@box=\box37
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -314,7 +329,7 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count116
+\c@pgfmathroundto@lastzeros=\count117
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
@@ -345,10 +360,10 @@ File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
-\pgfpic=\box36
-\pgf@hbox=\box37
-\pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count117
+\pgfpic=\box38
+\pgf@hbox=\box39
+\pgf@layerbox@main=\box40
+\pgf@picture@serial@count=\count118
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
@@ -375,14 +390,14 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
 \pgf@max=\dimen151
-\pgf@sys@shading@range@num=\count118
+\pgf@sys@shading@range@num=\count119
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
 
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
-\pgfexternal@startupbox=\box39
+\pgfexternal@startupbox=\box41
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
@@ -395,7 +410,7 @@ File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
 )))
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box40
+\pgfnodeparttextbox=\box42
 )
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
@@ -415,15 +430,15 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen154
 \pgffor@skip=\dimen155
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count119
+\pgf@plot@mark@count=\count120
 \pgfplotmarksize=\dimen156
 )
 \tikz@lastx=\dimen157
@@ -432,20 +447,20 @@ File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \tikz@lastysaved=\dimen160
 \tikzleveldistance=\dimen161
 \tikzsiblingdistance=\dimen162
-\tikz@figbox=\box41
-\tikz@tempbox=\box42
-\tikztreelevel=\count120
-\tikznumberofchildren=\count121
-\tikznumberofcurrentchild=\count122
-\tikz@fig@count=\count123
+\tikz@figbox=\box43
+\tikz@tempbox=\box44
+\tikztreelevel=\count121
+\tikznumberofchildren=\count122
+\tikznumberofcurrentchild=\count123
+\tikz@fig@count=\count124
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count124
-\pgfmatrixcurrentcolumn=\count125
-\pgf@matrix@numberofcolumns=\count126
+\pgfmatrixcurrentrow=\count125
+\pgfmatrixcurrentcolumn=\count126
+\pgf@matrix@numberofcolumns=\count127
 )
-\tikz@expandcount=\count127
+\tikz@expandcount=\count128
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -477,11 +492,11 @@ ations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen166
 \pgfdecoratedinputsegmentremainingdistance=\dimen167
 \pgf@decorate@distancetomove=\dimen168
-\pgf@decorate@repeatstate=\count128
+\pgf@decorate@repeatstate=\count129
 \pgfdecorationsegmentamplitude=\dimen169
 \pgfdecorationsegmentlength=\dimen170
 )
-\tikz@lib@dec@box=\box43
+\tikz@lib@dec@box=\box45
 )
 (/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
 athmorphing.code.tex))
@@ -536,26 +551,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.c
 ode.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v2.10 (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box44
-\pgfnodeparttwobox=\box45
-\pgfnodepartthreebox=\box46
-\pgfnodepartfourbox=\box47
-\pgfnodeparttwentybox=\box48
-\pgfnodepartnineteenbox=\box49
-\pgfnodeparteighteenbox=\box50
-\pgfnodepartseventeenbox=\box51
-\pgfnodepartsixteenbox=\box52
-\pgfnodepartfifteenbox=\box53
-\pgfnodepartfourteenbox=\box54
-\pgfnodepartthirteenbox=\box55
-\pgfnodeparttwelvebox=\box56
-\pgfnodepartelevenbox=\box57
-\pgfnodeparttenbox=\box58
-\pgfnodepartninebox=\box59
-\pgfnodeparteightbox=\box60
-\pgfnodepartsevenbox=\box61
-\pgfnodepartsixbox=\box62
-\pgfnodepartfivebox=\box63
+\pgfnodepartlowerbox=\box46
+\pgfnodeparttwobox=\box47
+\pgfnodepartthreebox=\box48
+\pgfnodepartfourbox=\box49
+\pgfnodeparttwentybox=\box50
+\pgfnodepartnineteenbox=\box51
+\pgfnodeparteighteenbox=\box52
+\pgfnodepartseventeenbox=\box53
+\pgfnodepartsixteenbox=\box54
+\pgfnodepartfifteenbox=\box55
+\pgfnodepartfourteenbox=\box56
+\pgfnodepartthirteenbox=\box57
+\pgfnodeparttwelvebox=\box58
+\pgfnodepartelevenbox=\box59
+\pgfnodeparttenbox=\box60
+\pgfnodepartninebox=\box61
+\pgfnodeparteightbox=\box62
+\pgfnodepartsevenbox=\box63
+\pgfnodepartsixbox=\box64
+\pgfnodepartfivebox=\box65
 )))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatte
 rns.code.tex
@@ -580,8 +595,8 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@old@col=\dimen174
 \TX@target=\dimen175
 \TX@delta=\dimen176
-\TX@cols=\count129
-\TX@ftn=\toks34
+\TX@cols=\count130
+\TX@ftn=\toks36
 )
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
@@ -593,7 +608,7 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks35
+\@emptytoks=\toks37
 \ex@=\dimen177
 ))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
@@ -603,41 +618,41 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count130
+\inf@bad=\count131
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count131
-\leftroot@=\count132
+\uproot@=\count132
+\leftroot@=\count133
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count133
-\DOTSCASE@=\count134
+\classnum@=\count134
+\DOTSCASE@=\count135
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box64
-\strutbox@=\box65
+\Mathstrutbox@=\box66
+\strutbox@=\box67
 \big@size=\dimen179
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count135
-\c@MaxMatrixCols=\count136
+\macc@depth=\count136
+\c@MaxMatrixCols=\count137
 \dotsspace@=\muskip11
-\c@parentequation=\count137
-\dspbrk@lvl=\count138
-\tag@help=\toks36
-\row@=\count139
-\column@=\count140
-\maxfields@=\count141
-\andhelp@=\toks37
+\c@parentequation=\count138
+\dspbrk@lvl=\count139
+\tag@help=\toks38
+\row@=\count140
+\column@=\count141
+\maxfields@=\count142
+\andhelp@=\toks39
 \eqnshift@=\dimen180
 \alignsep@=\dimen181
 \tagshift@=\dimen182
 \tagwidth@=\dimen183
 \totwidth@=\dimen184
 \lineht@=\dimen185
-\@envbody=\toks38
+\@envbody=\toks40
 \multlinegap=\skip62
 \multlinetaggap=\skip63
-\mathdisplay@stack=\toks39
+\mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
@@ -650,14 +665,14 @@ Package: etoolbox 2009/08/06 v1.8 e-TeX tools for LaTeX
 
 (/usr/share/texmf-texlive/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count142
+\et@xins=\count143
 ))
 (/usr/share/texmf-texlive/tex/latex/textpos/textpos.sty
 Package: textpos 2009/05/28 v1.7f
 
 Package: `textpos' 1.7f <2009 May 28>
-\TP@textbox=\box66
-\TP@holdbox=\box67
+\TP@textbox=\box68
+\TP@holdbox=\box69
 \TPHorizModule=\dimen186
 \TPVertModule=\dimen187
 \TP@margin=\dimen188
@@ -666,7 +681,7 @@ Grid set 16 x 16 = 37.34424pt x 52.81541pt
 \TPboxrulesize=\dimen190
 \TP@ox=\dimen191
 \TP@oy=\dimen192
-\TP@tbargs=\toks40
+\TP@tbargs=\toks42
 \TP@prevdepth=\dimen193
 TextBlockOrigin set to 0pt x 0pt
 )) (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
@@ -691,8 +706,8 @@ O)
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen194
-\Hy@linkcounter=\count143
-\Hy@pagecounter=\count144
+\Hy@linkcounter=\count144
+\Hy@pagecounter=\count145
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -752,10 +767,10 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count145
+\Fld@menulength=\count146
 \Field@Width=\dimen195
 \Fld@charsize=\dimen196
-\Field@toks=\toks41
+\Field@toks=\toks43
 Package hyperref Info: Hyper figures OFF on input line 4377.
 Package hyperref Info: Link nesting OFF on input line 4382.
 Package hyperref Info: Hyper index ON on input line 4385.
@@ -767,52 +782,52 @@ Package hyperref Info: PDF/A mode OFF on input line 4407.
 (/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
-\Hy@abspage=\count146
-\c@Item=\count147
+\Hy@abspage=\count147
+\c@Item=\count148
 )
 *hyperref using driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count148
+\Fld@listcount=\count149
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 241.
-Package hyperref Info: Option `raiselinks' set `false' on input line 241.
-Package hyperref Info: Option `breaklinks' set `true' on input line 241.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 243.
+Package hyperref Info: Option `colorlinks' set `false' on input line 242.
+Package hyperref Info: Option `raiselinks' set `false' on input line 242.
+Package hyperref Info: Option `breaklinks' set `true' on input line 242.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 244.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 246.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 247.
  (./thesis-example.aux)
 \openout1 = `thesis-example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 376.
-LaTeX Font Info:    ... okay on input line 376.
-\c@lstlisting=\count149
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 377.
+LaTeX Font Info:    ... okay on input line 377.
+\c@lstlisting=\count150
  (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count150
+\scratchcounter=\count151
 \scratchdimen=\dimen197
-\scratchbox=\box68
-\nofMPsegments=\count151
-\nofMParguments=\count152
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count153
+\scratchbox=\box70
+\nofMPsegments=\count152
+\nofMParguments=\count153
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count154
 \MPscratchDim=\dimen198
-\MPnumerator=\count154
-\everyMPtoPDFconversion=\toks43
+\MPnumerator=\count155
+\everyMPtoPDFconversion=\toks45
 ) ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 376.
+Package hyperref Info: Link coloring OFF on input line 377.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -820,20 +835,20 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 376.
-LaTeX Info: Redefining \pageref on input line 376.
+LaTeX Info: Redefining \ref on input line 377.
+LaTeX Info: Redefining \pageref on input line 377.
 
 (./thesis-example.out) (./thesis-example.out)
 \@outlinefile=\write4
 \openout4 = `thesis-example.out'.
 
-\AtBeginShipoutBox=\box69
+\AtBeginShipoutBox=\box71
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<images/aalto-logo-en.pdf, id=114, 302.3837pt x 132.96776pt>
+<images/aalto-logo-en.pdf, id=118, 302.3837pt x 132.96776pt>
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-en.pdf> [2 <./images/aalto-logo-en.pdf>] [3
@@ -864,7 +879,7 @@ Chapter 1.
 
 ]) (./2background.tex [8]
 Chapter 2.
-<./images/OpenFlowSwitch.pdf, id=200, 780.9175pt x 411.5375pt>
+<./images/OpenFlowSwitch.pdf, id=214, 780.9175pt x 411.5375pt>
 File: ./images/OpenFlowSwitch.pdf Graphic file (type pdf)
 
 <use ./images/OpenFlowSwitch.pdf> [9
@@ -875,64 +890,119 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (./3theory.tex [10 <./images/OpenFlowSwitch.pdf>] [11]
 Chapter 3.
-<./images/TCPHandshake.pdf, id=242, 418.56375pt x 568.1225pt>
-File: ./images/TCPHandshake.pdf Graphic file (type pdf)
-
-<use ./images/TCPHandshake.pdf>
-<./images/TCPSynAttak.pdf, id=243, 418.56375pt x 568.1225pt>
-File: ./images/TCPSynAttak.pdf Graphic file (type pdf)
-
-<use ./images/TCPSynAttak.pdf> [12
+[12
 
 ]
 
+pdfTeX warning: pdflatex (file ./images/TCPHandshake.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.4> allowed
+<./images/TCPHandshake.pdf, id=262, 418.56375pt x 568.1225pt>
+File: ./images/TCPHandshake.pdf Graphic file (type pdf)
+
+<use ./images/TCPHandshake.pdf>
+
+pdfTeX warning: pdflatex (file ./images/TCPSynAttak.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.4> allowed
+<./images/TCPSynAttak.pdf, id=263, 418.56375pt x 568.1225pt>
+File: ./images/TCPSynAttak.pdf Graphic file (type pdf)
+
+<use ./images/TCPSynAttak.pdf>
+
 pdfTeX warning: pdflatex (file ./images/DirectAttackSYN.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.4> allowed
-<./images/DirectAttackSYN.pdf, id=251, 546.04pt x 1003.75pt>
+<./images/DirectAttackSYN.pdf, id=266, 546.04pt x 1003.75pt>
 File: ./images/DirectAttackSYN.pdf Graphic file (type pdf)
 
-<use ./images/DirectAttackSYN.pdf>
+<use ./images/DirectAttackSYN.pdf> [13 <./images/TCPHandshake.pdf> <./images/TC
+PSynAttak.pdf>]
 
 pdfTeX warning: pdflatex (file ./images/SpoofedAttackSYN.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.4> allowed
-<./images/SpoofedAttackSYN.pdf, id=252, 1003.75pt x 1003.75pt>
+<./images/SpoofedAttackSYN.pdf, id=318, 1003.75pt x 1003.75pt>
 File: ./images/SpoofedAttackSYN.pdf Graphic file (type pdf)
 
-<use ./images/SpoofedAttackSYN.pdf>
+<use ./images/SpoofedAttackSYN.pdf> [14 <./images/DirectAttackSYN.pdf> <./image
+s/SpoofedAttackSYN.pdf>]
 
 pdfTeX warning: pdflatex (file ./images/DistributedAttackSYN.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.4> allowed
-<./images/DistributedAttackSYN.pdf, id=253, 1003.75pt x 1003.75pt>
+<./images/DistributedAttackSYN.pdf, id=365, 1003.75pt x 1003.75pt>
 File: ./images/DistributedAttackSYN.pdf Graphic file (type pdf)
 
-<use ./images/DistributedAttackSYN.pdf>) (./thesis-example.bbl [13 <./images/TC
-PHandshake.pdf> <./images/TCPSynAttak.pdf>] [14 <./images/DirectAttackSYN.pdf> 
-<./images/SpoofedAttackSYN.pdf> <./images/DistributedAttackSYN.pdf>])
-(./appendices.tex [15
+<use ./images/DistributedAttackSYN.pdf>
+Overfull \hbox (52.85918pt too wide) in paragraph at lines 86--86
+ |[]\OT1/cmr/bx/n/14.4 TCP FLOOD-ING DE-FENSE PRO-POSED (DRAFT!!!!)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[15 <./images/DistributedAttackSYN.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+<./images/AlgorithmAnomalyDetection.png, id=396, 722.7pt x 598.235pt>
+File: ./images/AlgorithmAnomalyDetection.png Graphic file (type png)
+
+<use ./images/AlgorithmAnomalyDetection.png> [16]) (./thesis-example.bbl
+[17 <./images/AlgorithmAnomalyDetection.png>]) (./appendices.tex [18
 
 ]
 Appendix A.
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 <use images/aalto-logo-en.pdf>
-<images/aalto-logo-fi.pdf, id=370, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=417, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
-<images/aalto-logo-se.pdf, id=371, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=418, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
-<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [16
+<use images/aalto-logo-se.pdf>) AED: lastpage setting LastPage [19
 
-] [17 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
+] [20 <./images/aalto-logo-fi.pdf> <./images/aalto-logo-se.pdf>] (./thesis-exam
 ple.aux) ) 
 Here is how much of TeX's memory you used:
- 19339 strings out of 493848
- 358409 string characters out of 1152822
- 463319 words of memory out of 3000000
- 22083 multiletter control sequences out of 15000+50000
+ 19399 strings out of 495061
+ 359208 string characters out of 1182620
+ 463655 words of memory out of 3000000
+ 22036 multiletter control sequences out of 15000+50000
  11799 words of font info for 42 fonts, out of 3000000 for 9000
- 716 hyphenation exceptions out of 8191
- 56i,12n,57p,809b,376s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30 hyphenation exceptions out of 8191
+ 56i,12n,57p,883b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texl
@@ -941,9 +1011,9 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/a
 msfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 
-Output written on thesis-example.pdf (17 pages, 1644109 bytes).
+Output written on thesis-example.pdf (20 pages, 1624211 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 479 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
